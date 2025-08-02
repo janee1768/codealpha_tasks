@@ -1,29 +1,35 @@
-# Code Alpha Internship Tasks
+# Code Alpha Internship Task
 
-This repository contains my submitted tasks for the Code Alpha internship program. All tasks are written in Python and demonstrate my understanding of basic programming concepts.
+This repository contains my submitted task for the Code Alpha internship program. All tasks are written in Python and demonstrate my understanding of basic programming concepts.
 
 ## 🧠 Task 1: Chatbot
-A simple text-based chatbot using:
-- if-else statements
-- loops
-- print statements
+# 🤖 Basic Chatbot – Code Alpha Internship Task
 
-## 🎮 Task 2: Hangman Game
-A word guessing game using:
-- random library
-- if statements
-- loops and user input
+This is a simple text-based chatbot built using Python. It was created as part of the Code Alpha Internship to demonstrate basic programming logic, user interaction, and control flow.
 
-## 📊 Task 3: Stock Portfolio Tracker
-A basic stock manager using:
-- dictionary for storing data
-- if conditions and while loops
-- file handling to save data
+## 📌 Features
 
-## 💻 Requirements
+- Responds to specific user messages
+- Uses `while` loops to continue conversation
+- Handles user input with `.strip()` and `.lower()` for cleaner comparison
+- Follows a three-step dialogue structure
+
+## 🧠 How it Works
+
+1. The user must first say `"hi"` to begin the chat.
+2. The chatbot then expects `"how are you doing"` as the second input.
+3. The conversation ends with `"bye"`.
+
+The bot guides the user if an unexpected response is given at any step.
+
+## 💻 Technologies Used
+
 - Python 3.x
+- No external libraries
 
 ## 🚀 How to Run
-Run each Python file using:
-```bash
-python filename.py
+
+1. Make sure Python is installed.
+2. Run the script in your terminal or IDE:
+   ```bash
+   python "Basic Chatbot.py"
